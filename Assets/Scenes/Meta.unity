@@ -860,8 +860,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2854409282880115015}
   m_LocalRotation: {x: 0.7346104, y: -0.0039658817, z: 0.0065829987, w: 0.6784457}
-  m_LocalPosition: {x: -7.508788e-10, y: 0.0045298985, z: 7.4505804e-11}
-  m_LocalScale: {x: 1, y: 1.0000004, z: 0.9999999}
+  m_LocalPosition: {x: 0, y: 0.0045298985, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2854409284210478646}
   m_Father: {fileID: 2854409283851729291}
@@ -3601,7 +3601,7 @@ GameObject:
   - component: {fileID: 5431124978489497026}
   - component: {fileID: 5431124978489497027}
   - component: {fileID: 5431124978489497028}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Foot.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3632,7 +3632,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 2.9103828e-10, y: 0.004036029, z: -4.6566098e-10}
+  m_ConnectedAnchor: {x: 4.0745357e-10, y: 0.004036029, z: 0.0000000032596268}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -3728,8 +3728,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283587393687}
+  mirror: 0
 --- !u!54 &5431124978489497029
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3770,7 +3770,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978497722118}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Thumb01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3789,8 +3789,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284107806526}
+  mirror: 0
 --- !u!1 &5431124978505568954
 GameObject:
   m_ObjectHideFlags: 0
@@ -3804,7 +3804,7 @@ GameObject:
   - component: {fileID: 5431124978505568959}
   - component: {fileID: 5431124978505568956}
   - component: {fileID: 5431124978505568929}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tail02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3822,7 +3822,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0, y: 0.0038768074, z: 0.0000000026775526}
+  m_ConnectedAnchor: {x: 6.002666e-11, y: 0.003876803, z: 0.0000000060535976}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -3963,8 +3963,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409282880115011}
+  mirror: 0
 --- !u!4 &5431124978511015322
 Transform:
   m_ObjectHideFlags: 0
@@ -3993,8 +3993,7 @@ GameObject:
   - component: {fileID: 5431124978511015324}
   - component: {fileID: 5431124978511015325}
   - component: {fileID: 5431124978511015297}
-  - component: {fileID: 5431124978511015326}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: UpperLeg.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4028,7 +4027,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -9.458747e-10, y: 0.0045298967, z: 0.0000000013969845}
+  m_ConnectedAnchor: {x: -0.00000000106229, y: 0.0045298957, z: 0.000000002793969}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -4112,20 +4111,6 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5431124978511015326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5431124978511015323}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 0
 --- !u!136 &5431124978511015327
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -4180,7 +4165,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978543861317}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Middel02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4225,7 +4210,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978555109016}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Middel02.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4241,7 +4226,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978555272203}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg ik.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4286,7 +4271,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978605739046}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Ring02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4317,7 +4302,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978628129752}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg ik.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4385,7 +4370,7 @@ GameObject:
   - component: {fileID: 5431124978664691364}
   - component: {fileID: 5431124978664691365}
   - component: {fileID: 5431124978664691367}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Ear.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4419,7 +4404,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 9.3132246e-10, y: 0.0075870575, z: 0.0000000027939682}
+  m_ConnectedAnchor: {x: 0.0000000016298143, y: 0.0075870585, z: 9.313227e-10}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -4515,8 +4500,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284556417555}
+  mirror: 0
 --- !u!1 &5431124978670899322
 GameObject:
   m_ObjectHideFlags: 0
@@ -4526,7 +4511,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978670899325}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Index02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4557,7 +4542,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978677971973}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Index02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4611,7 +4596,7 @@ GameObject:
   - component: {fileID: 5431124978746043559}
   - component: {fileID: 5431124978746043560}
   - component: {fileID: 5431124978746043563}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Spine01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4645,7 +4630,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.16911793, y: 1.1981685, z: -5.6823673}
+  m_ConnectedAnchor: {x: -0.16911793, y: 1.1942325, z: -5.644918}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 2
@@ -4767,13 +4752,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5431124978746043557}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283794372876}
+  mirror: 0
 --- !u!4 &5431124978749208945
 Transform:
   m_ObjectHideFlags: 0
@@ -4797,7 +4782,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978749208945}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Thmb02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4816,8 +4801,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284061606106}
+  mirror: 0
 --- !u!1 &5431124978756627114
 GameObject:
   m_ObjectHideFlags: 0
@@ -4831,7 +4816,7 @@ GameObject:
   - component: {fileID: 5431124978756627119}
   - component: {fileID: 5431124978756627116}
   - component: {fileID: 5431124978756627089}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tail01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5002,7 +4987,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978805043986}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Thmb02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5020,7 +5005,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.7280401e-10, y: 0.004218459, z: 0.0000000013387762}
+  m_ConnectedAnchor: {x: 2.0099836e-10, y: 0.004218455, z: -0.0000000012805685}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -5131,8 +5116,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284116443076}
+  mirror: 0
 --- !u!54 &5431124978810426483
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -5161,7 +5146,7 @@ GameObject:
   - component: {fileID: 5431124978810426483}
   - component: {fileID: 5431124978810426480}
   - component: {fileID: 5431124978810426482}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tail09
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5177,7 +5162,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978817077085}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg ik.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5211,8 +5196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283851729291}
+  mirror: 0
 --- !u!4 &5431124978822307498
 Transform:
   m_ObjectHideFlags: 0
@@ -5241,8 +5226,7 @@ GameObject:
   - component: {fileID: 5431124978822307500}
   - component: {fileID: 5431124978822307501}
   - component: {fileID: 5431124978822307473}
-  - component: {fileID: 5431124978822307502}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Thigh.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5276,7 +5260,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0054638484, y: -0.0073815724, z: -0.0025416433}
+  m_ConnectedAnchor: {x: -0.0054638484, y: -0.0073815715, z: -0.0025416433}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -5360,20 +5344,6 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5431124978822307502
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5431124978822307499}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 0
 --- !u!136 &5431124978822307503
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5397,7 +5367,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978861933149}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Pink01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5428,7 +5398,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978866717327}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Thumb01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5457,7 +5427,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5431124978872807309}
-  m_LocalRotation: {x: 0.03489949, y: 0, z: 0, w: 0.99939084}
+  m_LocalRotation: {x: 0.06975647, y: 0, z: 0, w: 0.9975641}
   m_LocalPosition: {x: -0.16911793, y: 0.66, z: -5.72}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_Children:
@@ -5466,7 +5436,7 @@ Transform:
   - {fileID: 5431124980293478852}
   m_Father: {fileID: 0}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 4, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 8, y: 0, z: 0}
 --- !u!1 &5431124978872807309
 GameObject:
   m_ObjectHideFlags: 0
@@ -5506,7 +5476,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124978939400028}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Hand Hold.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5541,7 +5511,7 @@ GameObject:
   - component: {fileID: 5431124978978113378}
   - component: {fileID: 5431124978978113379}
   - component: {fileID: 5431124978978113380}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: UpperLeg.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5575,7 +5545,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 6.111805e-10, y: 0.0045299, z: 4.6566156e-10}
+  m_ConnectedAnchor: {x: 0.0000000011059457, y: 0.0045298967, z: 0.0000000048894466}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -5671,8 +5641,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283475066198}
+  mirror: 0
 --- !u!136 &5431124978978113381
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5711,7 +5681,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979006924124}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Middel02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5741,7 +5711,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979033933242}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Middel02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5776,7 +5746,7 @@ GameObject:
   - component: {fileID: 5431124979039305578}
   - component: {fileID: 5431124979039305579}
   - component: {fileID: 5431124979039305580}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tail03
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5810,7 +5780,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.5825206e-10, y: 0.0032065983, z: 0.0000000068393993}
+  m_ConnectedAnchor: {x: 4.4110486e-11, y: 0.0032065997, z: 5.238689e-10}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -5906,8 +5876,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284355152376}
+  mirror: 0
 --- !u!136 &5431124979039305581
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -5949,7 +5919,7 @@ GameObject:
   - component: {fileID: 5431124979051018728}
   - component: {fileID: 5431124979051018729}
   - component: {fileID: 5431124979051018731}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Ear.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6079,8 +6049,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283754913431}
+  mirror: 0
 --- !u!4 &5431124979069920486
 Transform:
   m_ObjectHideFlags: 0
@@ -6105,7 +6075,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979069920486}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Middel01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6125,7 +6095,7 @@ GameObject:
   - component: {fileID: 5431124979089891563}
   - component: {fileID: 5431124979089891560}
   - component: {fileID: 5431124979089891565}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: LowerLeg.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6143,7 +6113,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.000000001644367, y: 0.007480401, z: 0.0000000027939673}
+  m_ConnectedAnchor: {x: 0.0000000014842959, y: 0.0074804006, z: 0.0000000013969836}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -6284,8 +6254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284296489241}
+  mirror: 0
 --- !u!4 &5431124979116221278
 Transform:
   m_ObjectHideFlags: 0
@@ -6310,7 +6280,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979116221278}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Toes.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6326,7 +6296,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979142512233}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Index02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6371,7 +6341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979184997496}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Middel01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6401,7 +6371,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979206412946}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Ring02.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6436,7 +6406,7 @@ GameObject:
   - component: {fileID: 5431124979225966900}
   - component: {fileID: 5431124979225966901}
   - component: {fileID: 5431124979225966902}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: LowerArm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6470,7 +6440,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0000000030267977, y: 0.007410968, z: -5.8207666e-10}
+  m_ConnectedAnchor: {x: 6.9849176e-10, y: 0.007410965, z: 5.8207666e-10}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -6566,8 +6536,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284178625155}
+  mirror: 0
 --- !u!136 &5431124979225966903
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -6756,7 +6726,7 @@ GameObject:
   - component: {fileID: 5431124979271350086}
   - component: {fileID: 5431124979271350087}
   - component: {fileID: 5431124979271350089}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Hand.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6790,7 +6760,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000000051222746, y: 0.0057707313, z: 0.000000002444722}
+  m_ConnectedAnchor: {x: 0.0000000032596295, y: 0.005770728, z: 0.0000000013969841}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -6886,8 +6856,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283317930524}
+  mirror: 0
 --- !u!4 &5431124979293722634
 Transform:
   m_ObjectHideFlags: 0
@@ -6911,7 +6881,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979293722634}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Pink02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6946,7 +6916,7 @@ GameObject:
   - component: {fileID: 5431124979330921316}
   - component: {fileID: 5431124979330921317}
   - component: {fileID: 5431124979330921318}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tail06
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6978,7 +6948,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 3.6379792e-12, y: 0.0039198203, z: 0.00000000174623}
+  m_ConnectedAnchor: {x: 1.0186342e-10, y: 0.003919807, z: 0.000000002444722}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -7074,8 +7044,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283533564168}
+  mirror: 0
 --- !u!54 &5431124979330921319
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -7115,7 +7085,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979343929518}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Thmb02.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7134,8 +7104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284455584535}
+  mirror: 0
 --- !u!4 &5431124979373070620
 Transform:
   m_ObjectHideFlags: 0
@@ -7162,7 +7132,7 @@ GameObject:
   - component: {fileID: 5431124979373070622}
   - component: {fileID: 5431124979373070623}
   - component: {fileID: 5431124979373070593}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tail09_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7196,7 +7166,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -5.0931703e-11, y: 0.004301081, z: 0.000000014202669}
+  m_ConnectedAnchor: {x: -1.4188117e-10, y: 0.004301084, z: 0.000000003259629}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -7289,7 +7259,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979404621311}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Index01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7324,7 +7294,7 @@ GameObject:
   - component: {fileID: 5431124979411541845}
   - component: {fileID: 5431124979411541842}
   - component: {fileID: 5431124979411541847}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: LowerArm.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7342,7 +7312,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 2.3283059e-10, y: 0.007410962, z: -0.0000000060535967}
+  m_ConnectedAnchor: {x: 2.3283059e-10, y: 0.0074109603, z: -4.656613e-10}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -7483,8 +7453,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283375806445}
+  mirror: 0
 --- !u!4 &5431124979414301898
 Transform:
   m_ObjectHideFlags: 0
@@ -7512,7 +7482,7 @@ GameObject:
   - component: {fileID: 5431124979414301900}
   - component: {fileID: 5431124979414301901}
   - component: {fileID: 5431124979414301903}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Neck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7546,7 +7516,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -1.3278624e-10, y: 0.010191966, z: -0.0000000051222746}
+  m_ConnectedAnchor: {x: -8.003554e-11, y: 0.01019196, z: -0.0000000030267988}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -7642,8 +7612,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283342019812}
+  mirror: 0
 --- !u!4 &5431124979448198972
 Transform:
   m_ObjectHideFlags: 0
@@ -7668,7 +7638,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979448198972}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Hand Hold.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7699,7 +7669,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979464697468}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Pink01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7715,7 +7685,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979471248029}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Toes.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7749,8 +7719,7 @@ GameObject:
   - component: {fileID: 5431124979484045369}
   - component: {fileID: 5431124979484045366}
   - component: {fileID: 5431124979484045370}
-  - component: {fileID: 5431124979484045371}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Foot.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7768,7 +7737,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 9.895303e-10, y: 0.00403603, z: 0.00000000465661}
+  m_ConnectedAnchor: {x: 7.566997e-10, y: 0.0040360275, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -7908,21 +7877,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
---- !u!114 &5431124979484045371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5431124979484045364}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
+  targetLimb: {fileID: 2854409284008199374}
   mirror: 0
 --- !u!1 &5431124979491344568
 GameObject:
@@ -7933,7 +7888,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979491344571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg Pole Target.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7968,7 +7923,7 @@ GameObject:
   - component: {fileID: 5431124979498915829}
   - component: {fileID: 5431124979498915826}
   - component: {fileID: 5431124979498915831}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tail05
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7986,7 +7941,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.9170684e-10, y: 0.0042920318, z: 0.000000005123184}
+  m_ConnectedAnchor: {x: 1.5168906e-10, y: 0.004292031, z: 0.0000000025647753}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -8127,8 +8082,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283610395103}
+  mirror: 0
 --- !u!4 &5431124979540034190
 Transform:
   m_ObjectHideFlags: 0
@@ -8152,7 +8107,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979540034190}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Pink02.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8183,7 +8138,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979540663354}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Index01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8199,7 +8154,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979610043319}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Ring01.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8249,7 +8204,7 @@ GameObject:
   - component: {fileID: 5431124979627980106}
   - component: {fileID: 5431124979627980107}
   - component: {fileID: 5431124979627980108}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Ear.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8280,7 +8235,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0030705933, y: 0.0069748918, z: 0.0011674579}
+  m_ConnectedAnchor: {x: 0.0030705933, y: 0.006974892, z: 0.0011674542}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -8376,8 +8331,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283292381018}
+  mirror: 0
 --- !u!54 &5431124979627980109
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8403,7 +8358,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979681295283}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Ring02.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8447,7 +8402,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979777791064}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Hand Hold.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8477,7 +8432,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979890817948}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Index02.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8508,7 +8463,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979938661698}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Ring02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8538,7 +8493,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124979960472994}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Toes.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8568,7 +8523,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124980079824336}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg ik.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8604,7 +8559,7 @@ GameObject:
   - component: {fileID: 5431124980088778580}
   - component: {fileID: 5431124980088778581}
   - component: {fileID: 5431124980088778582}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8732,8 +8687,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409282642916924}
+  mirror: 0
 --- !u!54 &5431124980088778583
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -8761,7 +8716,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.006140581, y: 0.007815015, z: 0.0008619932}
+  m_ConnectedAnchor: {x: -0.006140581, y: 0.0078150155, z: 0.00086199155}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -8902,8 +8857,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283597940656}
+  mirror: 0
 --- !u!1 &5431124980106244782
 GameObject:
   m_ObjectHideFlags: 0
@@ -8917,7 +8872,7 @@ GameObject:
   - component: {fileID: 5431124980106244755}
   - component: {fileID: 5431124980106244752}
   - component: {fileID: 5431124980106244757}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: UpperArm.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8933,7 +8888,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124980161766027}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Pink02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8968,7 +8923,7 @@ GameObject:
   - component: {fileID: 5431124980162358201}
   - component: {fileID: 5431124980162358198}
   - component: {fileID: 5431124980162358203}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tail08
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8986,7 +8941,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.7462298e-10, y: 0.0043769535, z: 0.0000000107102105}
+  m_ConnectedAnchor: {x: 2.237357e-10, y: 0.0043769507, z: 0.000000014784748}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -9127,8 +9082,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409283235876394}
+  mirror: 0
 --- !u!4 &5431124980217632888
 Transform:
   m_ObjectHideFlags: 0
@@ -9157,7 +9112,7 @@ GameObject:
   - component: {fileID: 5431124980217632890}
   - component: {fileID: 5431124980217632891}
   - component: {fileID: 5431124980217632892}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Ear.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9188,7 +9143,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0030705947, y: 0.0069748764, z: 0.001167454}
+  m_ConnectedAnchor: {x: -0.0030705947, y: 0.006974869, z: 0.0011674558}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -9284,8 +9239,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284627588054}
+  mirror: 0
 --- !u!54 &5431124980217632893
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -9311,7 +9266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124980255023115}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Hand Hold.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9486,7 +9441,7 @@ GameObject:
   - component: {fileID: 5431124980304633669}
   - component: {fileID: 5431124980304633666}
   - component: {fileID: 5431124980304633671}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Spine02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9504,7 +9459,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 4.9112714e-11, y: 0.009371534, z: 0}
+  m_ConnectedAnchor: {x: 9.458745e-11, y: 0.009371537, z: 0.0000000018626451}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -9646,8 +9601,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284142037625}
+  mirror: 0
 --- !u!4 &5431124980311944516
 Transform:
   m_ObjectHideFlags: 0
@@ -9672,7 +9627,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124980311944516}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Thmb02.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9707,7 +9662,7 @@ GameObject:
   - component: {fileID: 5431124980322814312}
   - component: {fileID: 5431124980322814313}
   - component: {fileID: 5431124980322814314}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: UpperArm.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9741,7 +9696,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.006140588, y: 0.007815021, z: 0.0008619643}
+  m_ConnectedAnchor: {x: 0.006140588, y: 0.007815017, z: 0.00086196105}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -9837,8 +9792,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409282862156630}
+  mirror: 0
 --- !u!136 &5431124980322814315
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -9862,7 +9817,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124980347956989}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Pink02.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9893,7 +9848,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124980371849927}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg Pole Target.R_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9938,7 +9893,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124980422016350}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Toes.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9957,7 +9912,7 @@ GameObject:
   - component: {fileID: 5431124980452619965}
   - component: {fileID: 5431124980452619962}
   - component: {fileID: 5431124980452619964}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Hand.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9975,7 +9930,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -0.0000000026775517, y: 0.005770729, z: 3.4924588e-10}
+  m_ConnectedAnchor: {x: -0.0000000038417047, y: 0.0057707294, z: 3.4924588e-10}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -10091,8 +10046,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284214203014}
+  mirror: 0
 --- !u!54 &5431124980452619965
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10133,7 +10088,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124980487505624}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg Pole Target.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10164,7 +10119,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124980490781720}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Ring01.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10199,8 +10154,7 @@ GameObject:
   - component: {fileID: 5431124980516338036}
   - component: {fileID: 5431124980516338037}
   - component: {fileID: 5431124980516338041}
-  - component: {fileID: 5431124980516338038}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: LowerLeg.R
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10232,7 +10186,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: -9.749783e-10, y: 0.0074803997, z: 0.0000000027939682}
+  m_ConnectedAnchor: {x: -6.7666406e-10, y: 0.007480394, z: 0}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -10316,20 +10270,6 @@ ConfigurableJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5431124980516338038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5431124980516338035}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 0
 --- !u!54 &5431124980516338039
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10358,8 +10298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284210478646}
+  mirror: 0
 --- !u!1 &5431124980555517474
 GameObject:
   m_ObjectHideFlags: 0
@@ -10373,7 +10313,7 @@ GameObject:
   - component: {fileID: 5431124980555517479}
   - component: {fileID: 5431124980555517476}
   - component: {fileID: 5431124980555517481}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tail04
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10391,7 +10331,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.055014e-10, y: 0.0036700594, z: 0.00000000919681}
+  m_ConnectedAnchor: {x: 4.001777e-11, y: 0.0036700545, z: 0.000000003259629}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -10532,8 +10472,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409282638151395}
+  mirror: 0
 --- !u!4 &5431124980560982288
 Transform:
   m_ObjectHideFlags: 0
@@ -10562,7 +10502,7 @@ GameObject:
   - component: {fileID: 5431124980560982290}
   - component: {fileID: 5431124980560982291}
   - component: {fileID: 5431124980560982292}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Thigh.L
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10596,7 +10536,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 0.0054131136, y: -0.0074134455, z: -0.002557382}
+  m_ConnectedAnchor: {x: 0.0054131136, y: -0.007413447, z: -0.0025573778}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -10692,8 +10632,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409282543353209}
+  mirror: 0
 --- !u!136 &5431124980560982293
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10731,7 +10671,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5431124980587754176}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Leg Pole Target.L_end
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10763,7 +10703,7 @@ ConfigurableJoint:
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
   m_AutoConfigureConnectedAnchor: 1
-  m_ConnectedAnchor: {x: 1.2823877e-10, y: 0.0040295073, z: 0.0000000029685907}
+  m_ConnectedAnchor: {x: 1.8553695e-10, y: 0.0040295157, z: 0.000000009255018}
   serializedVersion: 2
   m_SecondaryAxis: {x: 0, y: 1, z: 0}
   m_XMotion: 0
@@ -10859,8 +10799,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b54c563fa5c03de409ace4b9b8f21133, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetLimb: {fileID: 0}
-  mirror: 1
+  targetLimb: {fileID: 2854409284449659937}
+  mirror: 0
 --- !u!54 &5431124980596849315
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -10905,7 +10845,7 @@ GameObject:
   - component: {fileID: 5431124980596849312}
   - component: {fileID: 5431124980596849313}
   - component: {fileID: 5431124980596849314}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Tail07
   m_TagString: Untagged
   m_Icon: {fileID: 0}
