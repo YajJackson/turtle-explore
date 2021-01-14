@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MirrorMotion : MonoBehaviour
+public class CopyMotion : MonoBehaviour
 {
    public Transform targetLimb;
    ConfigurableJoint cj;
@@ -18,6 +18,8 @@ public class MirrorMotion : MonoBehaviour
     {
         if(!mirror)
         {
+            cj.targetPosition = targetLimb.position;
+
             cj.targetRotation = targetLimb.rotation;
         }else{
             cj.targetRotation = Quaternion.Inverse(targetLimb.rotation);
